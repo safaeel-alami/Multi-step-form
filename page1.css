@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+    background-color:   hsl(206, 94%, 87%);
+    margin: 0;
+    padding: 0;
+    padding: 50px;
+
+}
+
+#main-container{
+  
+    background-color: white;
+    border-radius: 10px;
+}
+
+#container1{
+    padding: 10px;
+}
+
+#steps{
+  
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 220px;
+    gap: 30px;
+}
+.side{
+    width: 200px;
+    Font-size : 16px;
+    display: flex;
+    margin-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    gap: 30px;
+   
+}
+
+.number{
+    border: 1px white solid;
+    border-radius: 50% 50%;
+  display: flex;align-items: center;
+  justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+.text1{
+    color: hsl(228, 100%, 84%);
+    margin-top: 2px;
+
+}
+.text2{
+    font-weight: bold;
+    margin-top: 2px;
+
+}
+.text{
+  
+}
+.number:hover{
+    background-color:   hsl(206, 94%, 87%);
+    color: black;
+
+}
+
+
